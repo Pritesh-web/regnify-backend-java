@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice Validation Failed</title>
+</head>
+
+<body>
+    <h2>Invoice Validation Failed</h2>
+    <p>Invoice Number: <span th:text="${invoiceNumber}">INV-001</span></p>
+    <p>The following errors were found:</p>
+    <p th:text="${validationErrors}">Error details here</p>
+    <a th:href="${invoiceUrl}">View Details</a>
+</body>
+
+</html>

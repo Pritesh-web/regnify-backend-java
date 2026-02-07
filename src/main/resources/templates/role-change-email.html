@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Account Role Updated</title>
+</head>
+
+<body>
+    <h2>Account Role Updated</h2>
+    <p>Hi <span th:text="${name}">User</span>,</p>
+    <p>Your user role has been updated to: <strong th:text="${role}">VIEWER</strong></p>
+    <a th:href="${loginUrl}">Login to your account</a>
+</body>
+
+</html>

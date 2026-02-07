@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Account Status Updated</title>
+</head>
+
+<body>
+    <h2>Account Status Updated</h2>
+    <p>Hi <span th:text="${name}">User</span>,</p>
+    <p>Your account status has been changed to: <strong th:text="${status}">ACTIVE</strong></p>
+    <a th:href="${loginUrl}">Login to your account</a>
+</body>
+
+</html>

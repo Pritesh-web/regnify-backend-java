@@ -1,0 +1,29 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.regnify:regnify-backend >---------------------
+[INFO] Building regnify-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ regnify-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ regnify-backend ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 50 source files with javac [debug parameters release 17] to target\classes
+[WARNING] /C:/Users/pritesh/Downloads/JavaSpringBoot/regnify-backend/src/main/java/com/regnify/security/SecurityConfig.java:[35,13] cors() in org.springframework.security.config.annotation.web.builders.HttpSecurity has been deprecated and marked for removal
+[WARNING] /C:/Users/pritesh/Downloads/JavaSpringBoot/regnify-backend/src/main/java/com/regnify/security/SecurityConfig.java:[35,20] and() in org.springframework.security.config.annotation.SecurityConfigurerAdapter has been deprecated and marked for removal
+[WARNING] /C:/Users/pritesh/Downloads/JavaSpringBoot/regnify-backend/src/main/java/com/regnify/security/SecurityConfig.java:[36,13] csrf() in org.springframework.security.config.annotation.web.builders.HttpSecurity has been deprecated and marked for removal
+[WARNING] /C:/Users/pritesh/Downloads/JavaSpringBoot/regnify-backend/src/main/java/com/regnify/security/SecurityConfig.java:[37,13] exceptionHandling() in org.springframework.security.config.annotation.web.builders.HttpSecurity has been deprecated and marked for removal
+[WARNING] /C:/Users/pritesh/Downloads/JavaSpringBoot/regnify-backend/src/main/java/com/regnify/security/SecurityConfig.java:[39,17] and() in org.springframework.security.config.annotation.SecurityConfigurerAdapter has been deprecated and marked for removal
+[WARNING] /C:/Users/pritesh/Downloads/JavaSpringBoot/regnify-backend/src/main/java/com/regnify/security/SecurityConfig.java:[40,13] sessionManagement() in org.springframework.security.config.annotation.web.builders.HttpSecurity has been deprecated and marked for removal
+[WARNING] /C:/Users/pritesh/Downloads/JavaSpringBoot/regnify-backend/src/main/java/com/regnify/security/SecurityConfig.java:[42,17] and() in org.springframework.security.config.annotation.SecurityConfigurerAdapter has been deprecated and marked for removal
+[INFO] /C:/Users/pritesh/Downloads/JavaSpringBoot/regnify-backend/src/main/java/com/regnify/security/JwtTokenProvider.java: C:\Users\pritesh\Downloads\JavaSpringBoot\regnify-backend\src\main\java\com\regnify\security\JwtTokenProvider.java uses unchecked or unsafe operations.
+[INFO] /C:/Users/pritesh/Downloads/JavaSpringBoot/regnify-backend/src/main/java/com/regnify/security/JwtTokenProvider.java: Recompile with -Xlint:unchecked for details.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  21.004 s
+[INFO] Finished at: 2026-02-07T18:51:23+05:30
+[INFO] ------------------------------------------------------------------------

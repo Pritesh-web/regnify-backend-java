@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Account Unlocked</title>
+</head>
+
+<body>
+    <h2>Account Unlocked</h2>
+    <p>Hi <span th:text="${name}">User</span>,</p>
+    <p>Your account has been unlocked. You can now log in again.</p>
+    <a th:href="${loginUrl}">Login Now</a>
+</body>
+
+</html>
